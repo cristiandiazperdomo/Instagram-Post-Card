@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.post {
+    margin-top: 100px;
+    width: 400px;
+}
+
+p {
+    font-size: 14px;
+}
+
+i {
+    font-size: 28px;
+}
+
+/* HEADER */
+.post header {
+   display: flex;
+   justify-content: space-between;
+}
+
+.post header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.post header .header-left {
+    display: flex;
+    align-items: center;
+}
+
+.post header .header-left div {
+    margin-left: 8px;
+}
+
+.post header .header-left h2 {
+    font-size: 12px;
+    font-weight: 800;
+    display: inline-block;
+    margin: 0;
+}
+
+.post header .header-left p {
+    font-size: 12px;
+    margin: 0;
+}
+
+/* POST BODY */
+
+.img-container {
+
+}
+
+.img-container img {
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div .icons {
+    margin: 8px 0;
+}
+
+footer div .icons i {
+    margin-right: 8px;
+}
+
+footer .likes {
+    margin: 16px 0;
+} 
+
+footer .likes p {
+    margin: 0;
+}
+
+footer .likes p span {
+    font-weight: 800;
+}
+
+footer .description {
+}
+
+footer .description p {
+    margin: 0;
+    
+}
